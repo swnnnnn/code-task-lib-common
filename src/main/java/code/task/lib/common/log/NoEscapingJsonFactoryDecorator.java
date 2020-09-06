@@ -13,9 +13,6 @@ import net.logstash.logback.decorate.JsonFactoryDecorator;
  *
  * 참고 : https://github.com/logstash/logstash-logback-encoder/issues/197
  * 참고 : https://github.com/logstash/logstash-logback-encoder#customizing-json-factory-and-generator
- *
- * @author black4eyes
- *
  */
 public class NoEscapingJsonFactoryDecorator implements JsonFactoryDecorator {
 
